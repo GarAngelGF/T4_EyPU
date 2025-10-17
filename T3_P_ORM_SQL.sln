@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T3_P_ORM_SQL", "T3_P_ORM_SQL\T3_P_ORM_SQL.csproj", "{13121255-68B7-4911-B831-9BACA669BD58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4_EyPU", "T3_P_ORM_SQL\T4_EyPU.csproj", "{13121255-68B7-4911-B831-9BACA669BD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4_EyPU.Tests", "T4_EyPU.Tests\T4_EyPU.Tests.csproj", "{3EF30179-32C3-4168-9855-9B66D678390E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{13121255-68B7-4911-B831-9BACA669BD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13121255-68B7-4911-B831-9BACA669BD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13121255-68B7-4911-B831-9BACA669BD58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF30179-32C3-4168-9855-9B66D678390E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF30179-32C3-4168-9855-9B66D678390E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF30179-32C3-4168-9855-9B66D678390E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF30179-32C3-4168-9855-9B66D678390E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE6FD707-DD3A-46F9-898B-006AE4921175}
 	EndGlobalSection
 EndGlobal

@@ -39,11 +39,11 @@
             // 
             Titulo.AutoSize = true;
             Titulo.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Titulo.Location = new Point(49, 23);
+            Titulo.Location = new Point(29, 23);
             Titulo.Name = "Titulo";
-            Titulo.Size = new Size(230, 74);
+            Titulo.Size = new Size(268, 74);
             Titulo.TabIndex = 0;
-            Titulo.Text = "Tarea 3 \r\nRegistro de citas";
+            Titulo.Text = "Tarea 4 \r\nRegistro de citas v2";
             Titulo.TextAlign = ContentAlignment.MiddleCenter;
             Titulo.Click += Titulo_Click;
             // 
@@ -92,7 +92,7 @@
             Name = "Main";
             SizeGripStyle = SizeGripStyle.Hide;
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Menu Principal T3";
+            Text = "Menu Principal T4 v2";
             Load += Main_Load;
             ResumeLayout(false);
             PerformLayout();

@@ -218,5 +218,22 @@ namespace T3_P_ORM_SQL.Controladores
                 throw new BDConexionException("Error de base de datos. No se pudo eliminar la cita, es posible que tenga datos relacionados.", ex);
             }
         }
+        // Método para calcular el costo de una consulta médica
+        public decimal CalcularCostoConsulta(int cantidadEspecialidades)
+        {
+            const decimal costoBase = 500m; 
+            const decimal costoPorEspecialidad = 100m;
+
+            if (cantidadEspecialidades < 0)
+            {
+                // lo tratamos como 0 para evitar costos negativos.
+                cantidadEspecialidades = 0;
+            }
+
+            decimal costoTotal = costoBase + (cantidadEspecialidades * costoPorEspecialidad);
+            return costoTotal;
+        }
+
+
     }
 }
