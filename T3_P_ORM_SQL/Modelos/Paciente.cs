@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace T3_P_ORM_SQL.Modelos
 {
-    internal class Paciente
+    public class Paciente
     {
         [Key]
         public int Id { get; set; }

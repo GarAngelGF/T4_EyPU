@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace T3_P_ORM_SQL.Modelos
 {
-    internal class Inter_Paciente_Cita
+    public class Inter_Paciente_Cita
     {
         public int PacienteId { get; set; }
         public Paciente Paciente { get; set; }
